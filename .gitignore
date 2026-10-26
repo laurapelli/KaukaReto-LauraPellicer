@@ -1,0 +1,45 @@
+# --- Carpetas que Unity genera solo (no se suben) ---
+# (La carpeta Builds SÍ se sube, para que se pueda descargar el juego compilado.)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# --- Archivos del editor de código (Visual Studio / Rider / VS Code) ---
+.vs/
+.vscode/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.mdb
+*.opendb
+*.VC.db
+
+# --- Metadatos que no hace falta subir ---
+*.pidb.meta
+*.mdb.meta
+
+# --- Crash reports y paquetes sueltos ---
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
